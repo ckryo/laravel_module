@@ -1,5 +1,5 @@
 {
-    "name": "ckryo/laravel_modules",
+    "name": "ckryo/laravel_module",
     "description": "The Laravel Framework Modules.",
     "keywords": ["modules", "framework", "laravel"],
     "license": "MIT",
