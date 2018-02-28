@@ -10,8 +10,7 @@
 | the IoC container for the system binding all of the various parts.
 |
 */
-require_once __DIR__.'/Application.php';
-$app = new Application(realpath(__DIR__.'/'));
+$app = new \Ckryo\Framework\Application(realpath(__DIR__.'/'));
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +30,7 @@ $app->singleton(
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    Illuminate\Foundation\Console\Kernel::class
+    \Ckryo\Framework\Console\Kernel::class
 );
 
 $app->singleton(
