@@ -3,14 +3,14 @@
     "description": "The Laravel Framework Modules.",
     "keywords": ["modules", "framework", "laravel"],
     "license": "MIT",
-    "type": "project",
+    "type": "library",
     "require": {
         "php": ">=7.0.0",
         "ckryo/laravel_framework": "*"
     },
     "autoload": {
         "psr-4": {
-            "Module\\": "src/"
+            "LaravelModule\\": "src/"
         }
     },
     "autoload-dev": {
