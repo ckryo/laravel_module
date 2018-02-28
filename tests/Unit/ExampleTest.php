@@ -14,8 +14,6 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        dump(app_path());
-//        dump($this->app->getNamespace());
         $this->assertTrue(true);
     }
 }
