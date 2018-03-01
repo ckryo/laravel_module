@@ -48,8 +48,6 @@ php artisan make:controller UserController
 ```
 
 ### 模块化开发规范 （概述）
-详情查看 [《laravel模块化开发规范》](/) - 待补充
-
 使用模块化开发，主要为了最终达到以下目的：
 
 * 针对相同问题选择统一的解决方案
@@ -67,3 +65,5 @@ php artisan make:controller UserController
 6. 模块中不建议创建控制器
 7. 模块独立的配置信息申明在模块中，一般配置信息通过 `env` 完成
 8. 项目中主要实现对模块的调用、环境配置、控制器、路由的申明；
+
+详情查看 [《laravel模块化开发规范》](/) - 待补充.
