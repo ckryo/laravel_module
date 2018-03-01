@@ -27,9 +27,10 @@ composer du
 bootstrap/  # laravel项目目录
  -| cache   # 原laravel项目下 /bootstrap/cache 目录
  -| config   # 原laravel项目下 /config 目录
+ -| public   # 原laravel项目下 /public 入口
  -| storage   # 原laravel项目下 /storage 目录
  -| app.php   # 原laravel项目下 /bootstrap/app.php 引导文件
- -| index.php   # 原laravel项目下 /public/index.php 入口文件
+ -| route.php   # 本地项目调试路由
 src/ # 模块代码的核心目录 - 自建
 config/ # 模块相关的配置目录 - 自建
 ```

@@ -38,6 +38,8 @@ $app->singleton(
     Illuminate\Foundation\Exceptions\Handler::class
 );
 
+require __DIR__ . '/route.php';
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
