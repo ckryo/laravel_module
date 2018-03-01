@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelModule\\": "src/"
+            "Module\\": "src/"
         }
     },
     "autoload-dev": {
